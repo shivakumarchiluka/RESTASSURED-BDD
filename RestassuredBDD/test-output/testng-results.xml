@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-28T17:42:00 IST" name="Default suite" finished-at="2022-07-28T17:42:03 IST" duration-ms="2871">
+    <groups>
+    </groups>
+    <test started-at="2022-07-28T17:42:00 IST" name="Default test" finished-at="2022-07-28T17:42:03 IST" duration-ms="2871">
+      <class name="com.truepush.qa.APITestcases.PostTrigger">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.truepush.qa.APITestcases.PostTrigger@49b0b76]" started-at="2022-07-28T17:42:00 IST" name="setUp" finished-at="2022-07-28T17:42:01 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postTrigger()[pri:0, instance:com.truepush.qa.APITestcases.PostTrigger@49b0b76]" started-at="2022-07-28T17:42:01 IST" name="postTrigger" finished-at="2022-07-28T17:42:03 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTrigger -->
+      </class> <!-- com.truepush.qa.APITestcases.PostTrigger -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
