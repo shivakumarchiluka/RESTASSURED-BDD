@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.truepush.qa.APITestcases.PostTemplateBDD">
+      <class name="com.truepush.qa.APITestcases.Listtriggers">
         <methods>
-          <include name="validatePostTempalteTest"/>
+          <include name="validateTriggersList"/>
         </methods>
-      </class> <!-- com.truepush.qa.APITestcases.PostTemplateBDD -->
+      </class> <!-- com.truepush.qa.APITestcases.Listtriggers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

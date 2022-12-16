@@ -4,7 +4,7 @@ package com.truepush.qa.APITestcases;
 import static io.restassured.RestAssured.*;
 
 
-import java.util.HashMap;
+
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -16,7 +16,6 @@ import testbase.TestbaseAPI;
 public class Listtemplates extends TestbaseAPI{
 	
 	
-	HashMap<String, String> map = new HashMap<String, String>();
 	
 	@BeforeClass
 	
@@ -57,11 +56,7 @@ public class Listtemplates extends TestbaseAPI{
 		
 		.assertThat().statusCode(200)
 		
-		.log().all()
-		
-		.extract().response();
-		
-		;
+		.log().all();
 		
 	}
 

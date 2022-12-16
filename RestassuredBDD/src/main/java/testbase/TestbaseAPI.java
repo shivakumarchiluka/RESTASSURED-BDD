@@ -17,8 +17,8 @@ public class TestbaseAPI {
 		try {
 			property = new Properties();
 			
-			FileInputStream ip = new FileInputStream("/home/exe0028/Desktop/shiva/RestassuredBDD/src/main/java/com/truepush/qa/"
-					+ "configuration/configuration.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\Admin\\git\\RESTASSURED-BDD\\RestassuredBDD\\src\\m"
+					+ "ain\\java\\com\\truepush\\qa\\configuration\\configuration.properties");
 
 			property.load(ip);
 		} catch (FileNotFoundException e) {
